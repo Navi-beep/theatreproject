@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "navbar navbar navbar navbar navbar navbar"
+      ". main-image main-image main-image main-image ."
+      ". posts posts posts posts ."
+      ". posts posts posts posts ."
+      "footer footer footer footer footer footer";
+  }
+  
+  .navbar { grid-area: navbar; }
+  
+  .main-image { grid-area: main-image; }
+  
+  .posts { grid-area: posts; }
+  
+  .footer { grid-area: footer; }
+  
