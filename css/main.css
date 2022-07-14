@@ -4,7 +4,8 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
+    gap: 0px 0px;
+    grid-auto-flow: row;
     grid-template-areas: 
         "navbar navbar navbar navbar navbar navbar"
         ". main-image main-image main-image main-image ."
@@ -40,8 +41,8 @@
     grid-area: main-image;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0;
+    align-content: center;
+
 }
 
 #theatreimage{
@@ -68,21 +69,22 @@
 
 .posts h2{
     border: 1px solid black;
+    margin: 0;
+    padding: 3px;
 
 }
 
 .musical-card{
-    border: 2px solid black;
+    border: 1px solid black;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
     align-items: center;
+   
     padding: 1vh;
     margin: 1vh 0;
 }
 
 #music-image{
-    width: 30%;
+    width: 75%;
     display: flex;
     justify-content: flex-start;
     align-content: left;
@@ -91,10 +93,20 @@
 .musical-link{
     display: flex;
     justify-content: flex-end;
+    
+}
+
+.musical-link a {
     text-decoration: none;
+    color: black;
     border: 1px solid black;
     background-color: blanchedalmond;
 }
+
+/**.musical-title {
+    margin: 10px 0;
+}
+**/
 
 p{
     font: 1.25em sans-serif;
