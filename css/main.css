@@ -73,37 +73,41 @@
 .musical-card{
     border: 1px solid black;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 1vh;
+    padding: 3vh;
     margin: 1vh 0;
 }
 
 #music-image{
-    width: 75%;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-content: left;
+    flex-direction: column;  
+    align-items: flex-start;
+    align-self: center;
 }
 
 .musical-link{
     display: flex;
-    justify-content: space-around; 
+    flex-direction: column;  
+    align-items: flex-end;
+    align-self: center;   
 }
 
 .musical-link a {
     text-decoration: none;
-    color: black;
+    color: white;
     border: 1px solid black;
-    background-color: blanchedalmond;
+    background-color: rgb(233, 168, 70);
 }
 
-/**.musical-title {
-    margin: 10px 0;
-}
-**/
-
-p{
-    font: 1.25em sans-serif;
+p {
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    align-self: center;
+    font: 1em sans-serif;
+    padding: 10vh;
 }
 
 .footer {
