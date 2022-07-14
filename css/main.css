@@ -104,9 +104,10 @@ p{
     grid-area: footer;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     color: white;
+    margin-top: auto;
     height: 20vh;
-    margin: 0;
    }
   
