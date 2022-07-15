@@ -60,7 +60,8 @@
 
 .posts { 
     grid-area: posts;
-    margin: -10px;
+    padding: 1vh;
+    margin: 0;
  }
 
 
