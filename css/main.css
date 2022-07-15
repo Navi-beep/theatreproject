@@ -139,6 +139,7 @@ p {
     grid-area: footer;
     background-color: black;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     color: white;
     margin-top: auto;
