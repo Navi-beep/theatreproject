@@ -132,9 +132,11 @@ p {
 .footer-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+.footer li{
     font-size: small;
-    
 }
 
 .footer-shows {
