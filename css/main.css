@@ -118,36 +118,38 @@ p {
     grid-area: footer;
     background-color: black;
     display: flex;
-    justify-content: space-evenly;
-    align-items: top;
+    justify-content: space-around;
     color: white;
     margin-top: auto;
-    height: 20vh;
+    height: fit-content;
    }
 
-/**#footer-image {
-    width: 25%;
+   .footer-info {
     display: flex;
-    flex-direction: row;  
-    align-items: flex-start;
-    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    
 }
-**/
-
-
 
 .footer-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    font-size: small;
+    
 }
-
 
 .footer-shows {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
+}
+
+.footer-shows a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    
 }
 
 .footer-social {
@@ -160,4 +162,5 @@ p {
 .footer-social a{
     text-decoration: none;
     color: white;
+    font-size: small;
 }
