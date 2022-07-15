@@ -67,9 +67,9 @@
 .posts h2{
     border: 1px solid grey;
     background-color: lightgray;
-    margin: 0;
+    margin-bottom: 20px;
     padding: 2px;
-
+    border-radius: 1px;
 }
 
 .musical-card{
@@ -78,7 +78,6 @@
     justify-content: center;
     align-items: center;
     padding: 3vh;
-    margin: 1vh 0;
 }
 
 #music-image{
@@ -121,14 +120,13 @@ p {
     justify-content: space-around;
     color: white;
     margin-top: auto;
-    height: fit-content;
+    height: 25vh;
    }
 
-   .footer-info {
+.footer-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .footer-info {
@@ -142,7 +140,8 @@ p {
 .footer-shows {
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
+    
 }
 
 .footer-shows a{
