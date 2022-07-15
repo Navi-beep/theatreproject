@@ -63,6 +63,11 @@
    
 }
 
+.date1{
+    width: 100%;
+    min-width: 100px;
+}
+
 .posts { 
     grid-area: posts;
     padding: 1vh;
@@ -88,6 +93,7 @@
     margin-bottom: 10px;
     width: auto;
     height: 30vh;
+    
 }
 
 #music-image{
@@ -97,6 +103,8 @@
     align-items: flex-start;
     align-self: center;
     border-radius: 2%;
+    width: 75%;
+    min-width: 100px;
 }
 
 .musical-link{
@@ -123,6 +131,8 @@ p {
     font-size: 1.25em;
     padding: 10vh;
     text-align: left;
+    width: 75%;
+    min-width: 100px;
 }
 
 .footer {
